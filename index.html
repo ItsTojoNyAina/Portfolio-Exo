@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOJO's PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/tojo-high-resolution-logo-white-on-transparent-background.png" class="logo" width="15%">
+                <ul id="side">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="entête">
+                <p>Front-end Developer</p>
+                <h1>Hi, I'm<Span> Tojo </Span>Ny Aina<br>RAKOTOARIMANANA From Madagascar</h1>
+            </div>
+        </div>
+    </div>
+<!-- About -->
+    <div id="About">
+        <div class="row">
+            <div class="about-colon1">
+                    <img src="images/profil.png" >
+             </div>
+             <div class="about-colon2">
+                <h1 class="sub">About me</h1>
+                <p2 class="zany">Passionate web developer with a focus on front-end development, skilled in ReactJS, HTML, CSS, and design.Still in the process to get my Bachelor degree, I possess a deep enthusiasm for creating user-friendly and interactive interfaces using cutting-edge technologies. With a keen eye for design, I understand the importance of aesthetically pleasing and intuitive user experiences. My proficiency in ReactJS allows me to build web applications using this popular JavaScript library. I have a solid grasp of HTML and CSS, enabling me to craft visually appealing interfaces that are compatible across various browsers. As a self-motivated and independent learner, I effectively manage my time to achieve set objectives. I thrive on staying up-to-date with the latest web development trends and always try to adapt to new technologies.</p2>
+                <div class="tabtitle">
+                    <p class="tablink bob" onclick="opentab('skills')">Skills</p>
+                    <p class="tablink" onclick="opentab('experience')">Experience</p>
+                    <p class="tablink"onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tabcontent activetab" id="skills">
+                    <ul>
+                        <li><span>ReactJS</span></li>
+                        <li><span>HTML/CSS</span></li>
+                        <li><span>Responsive Design</span></li>
+                    </ul>
+                </div>
+                <div class="tabcontent" id="experience">
+                    <ul>
+                        <li><span>No current work experience right now, just few personal project</span></li>
+                    </ul>
+                </div>
+                <div class="tabcontent" id="education">
+                    <ul>
+                        <li><span>2021-2022</span><br>Freshmen At ISPM Antananarivo in Electonic and informatic system fields</li>
+                        <li><span>2022-2023</span><br>Freshmen at Antananarivo University in Mathematics field in order to go one step further in my informatic studies</li>
+                        <li><span>2022-2023</span><br>Still in the process of obtaining my Bachelor degree</li>
+                        <li><span>2022-2023</span><br>Diploma of English equivalent to Bachelor At English Teaching Program Antsahavola, Antananarivo</li>
+                    </ul>
+                </div>
+             </div>
+             
+        </div>
+    </div>
+    <!-- service -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub">My Services</h1>
+        <div class="listserv">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Work well with clients to understand their needs and goals, and then create a design that is both visually appealing and functional.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-react"></i>
+                <h2>React Developer</h2>
+                <p>Generally responsible for the design and implementation of user interfaces (UIs) and UI components using React, a front-end JavaScript library.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <section>
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt" style="margin-left: 5%;"></i>
+                </section>
+                <h2>Web Conception with HTML/CSS</h2>
+                <p>Design and create the structure and layout of a website.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Portfolio -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub">My Work</h1>
+        <div class="worklist">
+            <div class="work">
+                <img src="images/music.jpg" >
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <br><p>This web app helps you to listen to other's song and also share your own song to others.</p>
+                    <br><a href="#"> <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/sm.jpg" >
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <br><p>This app web connects you to talented people around the world and share what's in your mind.</p>
+                    <br><a href="#"> <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/sport.jpg" >
+                <div class="layer">
+                    <h3>Sports Site</h3>
+                    <br><p>This site informs you about the Barcelona Football Club : its list of player, actuality and calendar. </p>
+                    <br ><a href="OTHER PAGE/Sport/Index.html"> <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="botin">See more</a>
+    </div>
+</div>
+<!-- contact -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contactleft">
+                <h1 class="sub">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> Itstojonyaina007@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> +261 34 74 319 09</p>
+                <div class="socialicon">
+                    <a href="https://www.facebook.com/profile.php?id=100009427656443"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/Its_TojoNyy?t=vInmM2WTp_LEbaIm-p887g&s=09"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://instagram.com/_born2pizzaaaaa?igshid=MzNlNGNkZWQ4Mg=="><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="CV.pdf" download class="botin btn">Download CV</a>
+            </div>
+            <div class="contactright">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="botin btn">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <br><p>© Copyright Tojo 2023</p><br>
+    </div>
+</div>
+<script src="script.js"></script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzb6IeG9b-wRkRcU3m3_OtChPQmvKamIo6Zyh1DpgpMeMPtkD5AlLxN58ulNDRVjQNH/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {msg.innerHTML='Le message a bien été envoyé'
+        setTimeout(function(){
+            msg.innerHTML=""
+        },5000)
+        form.reset()
+    })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
